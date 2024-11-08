@@ -10,6 +10,7 @@ body {
 
 .drum-kit-keys {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .key {
@@ -22,6 +23,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px;
+}
+
+.key:hover {
+  cursor: pointer;
 }
 
 .key-letter {
